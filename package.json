@@ -7,7 +7,7 @@
     "start:frontend": "cd frontend && ng serve",
     "start:backend": "node frontend/server/index.js",
     "start": "concurrently \"npm run start:frontend\" \"npm run start:backend\"",
-    "build:frontend": "cd frontend && ng build",
+    "build:frontend": "cd frontend && ./node_modules/@angular/cli/bin/ng build",
     "build:backend": "cd frontend/server && npm run build",
     "build": "npm run build:frontend && npm run build:backend",
     "test": "echo \"Error: no test specified\" && exit 1"
