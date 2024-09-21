@@ -2,7 +2,6 @@ const express=require('express')
 const bodyparser=require('body-parser')
 const cors =require('cors')
 const mongoose=require('mongoose')
-require('dotenv').config({ path: './frontend/server/.env' })
 
 const app=express();
 
@@ -15,9 +14,9 @@ app.use(bookingroute)
 app.use(routesroute)
 app.use(customerroutes)
 
-const DBURL=process.env.DBURL;
+const DBURL = "mongodb+srv://jaimeet:jaimeet321@cluster0.rdb37qe.mongodb.net/tedbus?retryWrites=true&w=majority&appName=Cluster0";
 console.log(DBURL);
-// const DBURL="mongodb://127.0.0.1:27017/tedbus"
+// const DBURL="mongodb://127.0.0.1:27017/tedbus" // local db
 mongoose.connect(DBURL)
 .then(()=> console.log("Mongodb connected"))
 .catch(err=> console.error('Mongodb connection error:' ,err))
