@@ -1,0 +1,209 @@
+{
+    "changeLanguage": "Changer de langue",
+    "BUS_TICKETS": "Billets de bus",
+    "CAB_RENTAL": "Location de voiture",
+    "TRAIN_TICKETS": "Billets de train",
+    "ENGLISH": "Anglais",
+    "HINDI": "हिंदी",
+    "FRENCH": "Français",
+    "RUSSIAN": "Русский",
+    "HELP": "Aide",
+    "ACCOUNT": "Compte",
+    "MY_TRIPS": "Mes voyages",
+    "WALLET_CARDS": "Portefeuille/Cartes",
+    "MY_PROFILE": "Mon profil",
+    "WALLET": "Portefeuille",
+    "SIGN_OUT": "Se déconnecter",
+    "applied": "appliqué",
+    "faq": {
+      "title": "QUESTIONS FRÉQUEMMENT POSÉES",
+      "navigation": {
+        "general": "Général",
+        "ticket_related": "Billet",
+        "more": "Plus",
+        "payment": "Paiement",
+        "cancellation_refund": "Annulation & Remboursement",
+        "insurance": "Assurance"
+      },
+      "questions": [
+        {
+          "question": "Puis-je suivre l'emplacement de mon bus réservé en ligne ?",
+          "answer": "Oui, vous pouvez suivre votre <strong>bus en ligne</strong> en utilisant notre fonction de suivi appelée <a class='text-blue-500'>Suivre Mon Bus</a>. Cette fonctionnalité permet aux passagers et à leurs familles de suivre l'emplacement en temps réel du bus. Vous pouvez suivre votre bus sur une carte et utiliser les informations pour planifier votre voyage jusqu'au point de départ et descendre à l'arrêt correct."
+        },
+        {
+          "question": "Pourquoi réserver des billets de bus en ligne sur tedbus ?",
+          "answer": "Oui, vous pouvez suivre votre <strong>bus en ligne</strong> en utilisant notre fonction de suivi appelée <a class='text-blue-500'>Suivre Mon Bus</a>."
+        },
+        {
+          "question": "Dois-je créer un compte sur le site tedbus pour réserver mon billet de bus ?",
+          "answer": "Oui, vous pouvez suivre votre <strong>bus en ligne</strong> avec la fonction <a class='text-blue-500'>Suivre Mon Bus</a>."
+        },
+        {
+          "question": "La réservation de billets de bus en ligne coûte-t-elle plus cher ?",
+          "answer": "Non, la réservation de billets en ligne sur tedbus ne coûte pas plus cher."
+        },
+        {
+          "question": "Comment obtenir des réductions sur la réservation de bus ?",
+          "answer": "Vous pouvez suivre votre bus en ligne via la fonction <a class='text-blue-500'>Suivre Mon Bus</a>."
+        },
+        {
+          "question": "Quoi de neuf dans la réservation de bus sur tedbus ?",
+          "answer": "Vous pouvez maintenant suivre les bus en temps réel avec <a class='text-blue-500'>Suivre Mon Bus</a>."
+        },
+        {
+          "question": "Puis-je réserver un billet de bus gouvernemental sur tedbus ?",
+          "answer": "Oui, les billets de bus gouvernementaux sont disponibles sur tedbus."
+        }
+      ]
+    },
+    "navbar": {
+      "hero": "Le site n°1 de réservation de billets de bus en ligne en Inde",
+      "from": "De",
+      "to": "À",
+      "date": "Date",
+      "searchBuses": "CHERCHER DES BUS",
+      "cities": {
+        "delhi": "Delhi",
+        "mumbai": "Mumbai",
+        "bangalore": "Bangalore",
+        "kolkata": "Kolkata",
+        "chennai": "Chennai",
+        "jaipur": "Jaipur",
+        "goa": "Goa",
+        "mysore": "Mysore",
+        "darjeeling": "Darjeeling",
+        "pondicherry": "Pondichéry"
+      }
+    },
+    "offers": {
+      "trendingOffers": "OFFRES TENDANCE",
+      "viewAll": "Voir tout",
+      "BUS": "BUS",
+      "offer1": {
+        "description": "Économisez jusqu'à Rs 250 sur les billets de bus",
+        "validity": "Valide jusqu'au 30 Nov",
+        "tag": "PREMIER"
+      },
+      "offer2": {
+        "description": "Économisez jusqu'à Rs 300 sur les routes AP, TS",
+        "validity": "Valide jusqu'au 30 Nov",
+        "tag": "SUPERHIT"
+      },
+      "offer3": {
+        "description": "Économisez jusqu'à Rs 300 sur RJ, MH, Goa, MP",
+        "validity": "Valide jusqu'au 30 Nov",
+        "tag": "BUS300"
+      },
+      "offer4": {
+        "description": "Économisez jusqu'à Rs 200 sur les routes Kerala",
+        "validity": "Valide jusqu'au 30 Nov",
+        "tag": "RBTRIP"
+      }
+    },
+    "header": {
+      "home": "Accueil",
+      "busTickets": "Billets de bus",
+      "bus": "Bus",
+      "to": "à",
+      "fareStarts": "Tarif à partir de",
+      "departureTo": "Départ pour",
+      "on": "le"
+    },
+    "left": {
+      "filters": "Filtres",
+      "liveTracking": "Suivi en direct",
+      "reschedulable": "Reportable",
+      "departureTime": "HEURE DE DÉPART",
+      "before 6 am": "Avant 6h",
+      "6 am to 12 pm": "6h à 12h",
+      "12pm to 6 pm": "12h à 18h",
+      "after 6 pm": "Après 18h",
+      "busTypes": "TYPES DE BUS",
+      "Seater": "Siège",
+      "Sleeper": "Couchette",
+      "Ac": "AC",
+      "Nonac": "Non-AC",
+      "arrivalTime": "HEURE D'ARRIVÉE",
+      "amenities": "AMÉNITÉS",
+      "wifi": "Wi-Fi",
+      "waterBottle": "Bouteille d'eau",
+      "blankets": "Couvertures",
+      "chargingPoint": "Prise de charge",
+      "movie": "Film"
+    },
+    "bus": {
+      "operatorName": "Nom de l'opérateur : {{operatorName}}",
+      "busType": "Type de bus : {{busType}}",
+      "departureTime": "Heure de départ : {{departureTime}}",
+      "liveTracking": {
+        "0": "Suivi en direct non disponible",
+        "1": "Suivi en direct"
+      },
+      "reschedulable": {
+        "0": "Non reportable",
+        "1": "Reportable"
+      },
+      "virtualTour": "Visite virtuelle du BUS {{operatorName}}"
+    },
+    "busAmenities": {
+      "chargingPoint": "Prise de charge",
+      "movie": "Film",
+      "readingLight": "Lumière de lecture",
+      "trackMyBus": "Suivre Mon Bus",
+      "seatsAvailable": "Sièges disponibles",
+      "windowSeat": "Siège côté fenêtre",
+      "totalReviews": "Total des avis : {{totalreview}}"
+    },
+    "mainBar": {
+      "amenities": "Aménités",
+      "boardingDropping": "Points d'embarquement et de débarquement",
+      "reviews": "Avis",
+      "bookingPolicies": "Politiques de réservation",
+      "viewSeats": "Voir les sièges"
+    },
+    "sortingBar": {
+      "safetyMessage": "Toutes les évaluations de bus incluent la sécurité comme facteur principal",
+      "list": "LISTE DE BUS",
+      "sortBy": "TRIER PAR :",
+      "departure": "Départ",
+      "duration": "Durée",
+      "arrivals": "Arrivées",
+      "ratings": "Évaluations",
+      "fare": "Tarif",
+      "seatsAvailable": "Sièges disponibles"
+    },
+    "busRoutes": {
+      "dialogTitle": "Routes de bus disponibles",
+      "position": "N°",
+      "from": "De",
+      "to": "À",
+      "noOfBus": "Nbre de bus"
+    },
+    "common": {
+      "cancel": "Annuler"
+    },
+    "seatSelection": {
+      "boardingDropping": "Embarquement et débarquement",
+      "change": "Changer",
+      "departureLocation": "Lieu de départ",
+      "arrivalLocation": "Lieu d'arrivée",
+      "seatNo": "N° de siège",
+      "fareDetails": "Détails du tarif",
+      "amount": "Montant",
+      "taxesInfo": "Les taxes seront calculées lors du paiement"
+    },
+    "busBooking": {
+      "enterPassengerDetails": "Entrez les détails des passagers",
+      "passengerInformation": "Informations sur le passager",
+      "passenger": "Passager",
+      "seat": "Siège",
+      "totalSeats": "Nombre total de sièges",
+      "fare": "Tarif total",
+      "bookTickets": "Réserver des billets",
+      "enterDetails": "Entrez les détails des passagers",
+      "totalFare": "Tarif total",
+      "bookNow": "Réserver maintenant",
+      "terms": "Conditions générales"
+    }
+  }
+  

@@ -1,0 +1,71 @@
+<div class="SingleTrip" *ngFor="let booking of booking">
+  <div class="SingleTrip__image">
+    <img [src]="randomimage" alt="bus" />
+  </div>
+  <div style="display: flex; justify-content: space-evenly">
+    <div class="SingleTrip__busdetails">
+      <div class="heading" style="font-weight: 600; font-size: large;">
+        {{ 'myTrip.busDetails' | translate }}
+      </div>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.departureLocation' | translate }}: {{ ('navbar.cities.' + booking.departureDetails.city.toLowerCase()) | translate }}
+      </p>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.departureTime' | translate }}: {{ booking.departureDetails.time }}:00 hrs
+      </p>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.departureDate' | translate }}: {{ booking.departureDetails.date }}
+      </p>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.arrivalLocation' | translate }}: {{ ('navbar.cities.' + booking.arrivalDetails.city.toLowerCase()) | translate }}
+      </p>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.arrivalTime' | translate }}: {{ booking.arrivalDetails.time }}:00 hrs
+      </p>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.arrivalDate' | translate }}: {{ booking.arrivalDetails.date }}
+      </p>
+      <p>
+        <span class="material-icons">radio_button_checked</span>
+        {{ 'myTrip.totalFare' | translate }}: {{ booking.fare }}
+      </p>
+    </div>
+
+    <div class="SingleTrip__persondetails">
+      <div class="heading" style="font-weight: 600; font-size: large;">
+        {{ 'myTrip.passengerDetails' | translate }}
+      </div>
+      <p>
+        <span class="material-icons">arrow_right_alt</span>
+        {{ 'myTrip.contactEmail' | translate }}: {{ booking.email }}
+      </p>
+      <p>
+        <span class="material-icons">arrow_right_alt</span>
+        {{ 'myTrip.contactPhoneNumber' | translate }}: {{ booking.phoneNumber }}
+      </p>
+
+      <div class="SingleTrip__customerDetails__passenger">
+        <div *ngFor="let passenger of booking.passengerDetails">
+          <p>
+            <span class="material-icons">arrow_right_alt</span>
+            {{ 'myTrip.passengerName' | translate }}: {{ passenger.name }}
+          </p>
+          <p>
+            <span class="material-icons">arrow_right_alt</span>
+            {{ 'myTrip.passengerGender' | translate }}: {{ passenger.gender }}
+          </p>
+          <p>
+            <span class="material-icons">arrow_right_alt</span>
+            {{ 'myTrip.passengerAge' | translate }}: {{ passenger.age }}
+          </p>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>

@@ -1,0 +1,9 @@
+.route-plan{
+    border-radius: 20px;
+    color:white;
+    transition: all 0.3s ease;
+}
+.route-plan:hover{
+    background-color: rgba(0, 0, 255, 0.375);
+    color:black;
+}

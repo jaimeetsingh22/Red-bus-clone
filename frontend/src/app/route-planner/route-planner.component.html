@@ -1,0 +1,77 @@
+<div class="route-planner-container">
+  <h2 class="route-planner-heading">
+    {{ "routePlanner.heading" | translate }}
+  </h2>
+
+  <div class="location-inputs">
+    <input
+      [(ngModel)]="startLocation"
+      placeholder="{{ 'routePlanner.startLocation' | translate }}"
+    />
+    <input
+      [(ngModel)]="endLocation"
+      placeholder="{{ 'routePlanner.endLocation' | translate }}"
+    />
+    <input
+      [(ngModel)]="waypoint"
+      placeholder="{{ 'routePlanner.waypoint' | translate }}"
+    />
+
+    <button (click)="addWaypoint()">
+      {{ "routePlanner.addWaypoint" | translate }}
+    </button>
+    <button (click)="calculateRoute()">
+      {{ "routePlanner.planRoute" | translate }}
+    </button>
+  </div>
+
+  <div class="map-container">
+    <div id="map"></div>
+  </div>
+
+  <!-- Spinner shown when loading -->
+  <div *ngIf="loading" class="loading-spinner">
+    <div class="loadingio-spinner-spin-2by998twmg8">
+      <div class="ldio-yzaezf3dcmj">
+        <div><div></div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+        <div><div></div></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="route-details" *ngIf="!loading">
+    <h3>
+      {{ startLocation }} {{ "routePlanner.to" | translate }} {{ endLocation }}
+    </h3>
+    <p>{{ "routePlanner.distance" | translate }}: {{ routeDistance }}</p>
+    <p *ngIf="waypoints.length > 0">
+      {{ "routePlanner.waypoints" | translate }}:
+    </p>
+    <ul>
+      <li *ngFor="let waypoint of waypoints">{{ waypoint }}</li>
+    </ul>
+  </div>
+
+  <div
+    class="route-instructions"
+    *ngIf="routeInstructions.length > 0 && !loading"
+  >
+    <h3>{{ "routePlanner.routeInstructions" | translate }}</h3>
+    <button (click)="toggleInstructions()" class="instruction-btn">
+      {{
+        InstructionText
+          ? ("routePlanner.showInstructions" | translate)
+          : ("routePlanner.hideInstructions" | translate)
+      }}
+    </button>
+    <ul *ngIf="instructionsVisible">
+      <li *ngFor="let instruction of routeInstructions">{{ instruction }}</li>
+    </ul>
+  </div>
+</div>

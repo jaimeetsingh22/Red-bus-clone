@@ -1,0 +1,366 @@
+{
+  "changeLanguage": "Change Language",
+  "BUS_TICKETS": "Bus Tickets",
+  "CAB_RENTAL": "Cab Rental",
+  "TRAIN_TICKETS": "Train Tickets",
+  "ENGLISH": "English",
+  "HINDI": "हिंदी",
+  "FRENCH": "Français",
+  "RUSSIAN": "Русский",
+  "HELP": "Help",
+  "ACCOUNT": "Account",
+  "MY_TRIPS": "My Trips",
+  "WALLET_CARDS": "Wallet/Cards",
+  "MY_PROFILE": "My Profile",
+  "WALLET": "Wallet",
+  "SIGN_OUT": "Sign Out",
+  "applied": "applied",
+  "faq": {
+    "title": "FREQUENTLY ASKED QUESTIONS",
+    "navigation": {
+      "general": "General",
+      "ticket_related": "Ticket-related",
+      "more": "More",
+      "payment": "Payment",
+      "cancellation_refund": "Cancellation & Refund",
+      "insurance": "Insurance"
+    },
+    "questions": [
+      {
+        "question": "Can I track the location of my booked bus online?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      },
+      {
+        "question": "Why book bus tickets online on tedbus?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      },
+      {
+        "question": "Do I need to create an account on the tedbus site to book my bus ticket?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      },
+      {
+        "question": "Does bus booking online cost me more?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      },
+      {
+        "question": "How can I get the discounts on the bus booking?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      },
+      {
+        "question": "What's New in Bus Booking on tedbus?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      },
+      {
+        "question": "Can I book a Government bus ticket on tedbus?",
+        "answer": "Yes, you can track your <strong>bus online</strong> by using our bus tracking app feature called <a class='text-blue-500'>Track My Bus</a>. This feature allows passengers and their families to track the live bus tracking location. You may follow your bus on a map and use the information to plan your trip to the boarding point and to get off at the correct stop. Family and friends may also check the bus position to plan pick-ups and ensure your safety."
+      }
+    ]
+  },
+  "navbar": {
+    "hero": "India's No. 1 Online Bus Ticket Booking Site",
+    "from": "From",
+    "to": "To",
+    "date": "Date",
+    "searchBuses": "SEARCH BUSES",
+    "cities": {
+      "delhi": "Delhi",
+      "mumbai": "Mumbai",
+      "bangalore": "Bangalore",
+      "kolkata": "Kolkata",
+      "chennai": "Chennai",
+      "jaipur": "Jaipur",
+      "goa": "Goa",
+      "mysore": "Mysore",
+      "darjeeling": "Darjeeling",
+      "pondicherry": "Pondicherry"
+    }
+  },
+  "offers": {
+    "trendingOffers": "TRENDING OFFERS",
+    "viewAll": "View All",
+    "BUS": "BUS",
+    "offer1": {
+      "description": "Save up to Rs 250 on bus tickets",
+      "validity": "Valid till 30 Nov",
+      "tag": "FIRST"
+    },
+    "offer2": {
+      "description": "Save up to Rs 300 on AP, TS routes",
+      "validity": "Valid till 30 Nov",
+      "tag": "SUPERHIT"
+    },
+    "offer3": {
+      "description": "Save up to Rs 300 on RJ, MH, Goa, MP",
+      "validity": "Valid till 30 Nov",
+      "tag": "BUS300"
+    },
+    "offer4": {
+      "description": "Save up to Rs 200 in Kerala routes.",
+      "validity": "Valid till 30 Nov",
+      "tag": "RBTRIP"
+    }
+  },
+  "header": {
+    "home": "Home",
+    "busTickets": "Bus Tickets",
+    "bus": "Bus",
+    "to": "to",
+    "fareStarts": "Fare Starts from",
+    "departureTo": "Departure to",
+    "on": "on"
+  },
+  "left": {
+    "filters": "Filters",
+    "liveTracking": "Live Tracking",
+    "reschedulable": "Reschedulable",
+    "departureTime": "DEPARTURE TIME",
+    "before 6 am": "Before 6 AM",
+    "6 am to 12 pm": "6 AM to 12 PM",
+    "12pm to 6 pm": "12 PM to 6 PM",
+    "after 6 pm": "After 6 PM",
+    "busTypes": "BUS TYPES",
+    "Seater": "Seater",
+    "Sleeper": "Sleeper",
+    "Ac": "AC",
+    "Nonac": "Non-AC",
+    "arrivalTime": "ARRIVAL TIME",
+    "amenities": "AMENITIES",
+    "wifi": "Wi-Fi",
+    "waterBottle": "Water Bottle",
+    "blankets": "Blankets",
+    "chargingPoint": "Charging Point",
+    "movie": "Movie"
+  },
+  "bus": {
+    "operatorName": "Operator Name: {{operatorName}}",
+    "busType": "Bus Type: {{busType}}",
+    "departureTime": "Departure Time: {{departureTime}}",
+    "liveTracking": {
+      "0": "Live tracking not available",
+      "1": "Live tracking"
+    },
+    "reschedulable": {
+      "0": "Non-reschedulable",
+      "1": "Reschedulable"
+    },
+    "virtualTour": "Take a Virtual Tour of {{operatorName}} BUS"
+  },
+  "busAmenities": {
+    "chargingPoint": "Charging Point",
+    "movie": "Movie",
+    "readingLight": "Reading Light",
+    "trackMyBus": "Track My Bus",
+    "seatsAvailable": "Seats Available",
+    "windowSeat": "Window Seat",
+    "totalReviews": "Total Reviews: {{totalreview}}"
+  },
+  "mainBar": {
+    "amenities": "Amenities",
+    "boardingDropping": "Boarding and Dropping Points",
+    "reviews": "Reviews",
+    "bookingPolicies": "Booking Policies",
+    "viewSeats": "View Seats"
+  },
+  "sortingBar": {
+    "safetyMessage": "All bus ratings include safety as a major factor",
+    "list": "BUSES LIST",
+    "sortBy": "SORT BY:",
+    "departure": "Departure",
+    "duration": "Duration",
+    "arrivals": "Arrivals",
+    "ratings": "Ratings",
+    "fare": "Fare",
+    "seatsAvailable": "Seats Available"
+  },
+  "busRoutes": {
+    "dialogTitle": "Bus Routes Available",
+    "position": "No.",
+    "from": "From",
+    "to": "To",
+    "noOfBus": "No. of Bus"
+  },
+  "common": {
+    "cancel": "Cancel"
+  },
+  "seatSelection": {
+    "boardingDropping": "Boarding and Dropping",
+    "change": "Change",
+    "departureLocation": "Departure Location",
+    "arrivalLocation": "Arrival Location",
+    "seatNo": "Seat No.",
+    "fareDetails": "Fare Details",
+    "amount": "Amount",
+    "taxesInfo": "Taxes will be calculated during Payment"
+  },
+  "busBooking": {
+    "enterPassengerDetails": "Enter Passenger Details",
+    "passengerInformation": "Passenger Information",
+    "passenger": "Passenger",
+    "seat": "Seat",
+    "name": "Name",
+    "gender": "Gender",
+    "male": "Male",
+    "female": "Female",
+    "age": "Age",
+    "contactDetails": "Contact Details",
+    "ticketSentToTheseDetails": "Your ticket will be sent to these details",
+    "email": "Email",
+    "phone": "Phone",
+    "businessTravel": "I am booking tickets for business travel.",
+    "sendUpdates": "Send updates and booking details on my Whatsapp number.",
+    "insureTravel": "Insure your travel by adding Rs 15 per passenger. Powered by ICICI Lombard GIC Ltd",
+    "lossOfBaggage": "Loss of baggage",
+    "baggageInsurance": "Upto Rs. 3000 insurance cover",
+    "personalAccident": "Personal Accident",
+    "accidentInsurance": "Rs. 6,00,000 insurance cover",
+    "yesSecureTrip": "Yes, secure my trip with insurance, I have read and understood the Terms and conditions",
+    "covidDonation": "COVID Donation",
+    "agreeTerms": "By clicking on proceed, I agree that I have read and understood the TnCs and the Privacy Policy",
+    "proceedToPay": "PROCEED TO PAY"
+  },
+  "payment": {
+    "enterOfferCode": "ENTER OFFER CODE",
+    "safeAndSecure": "Safe and Secure",
+    "onlinePayments": "Online Payments",
+    "millionTransactions": "60+ million transactions",
+    "yearsOfTrust": "10+ years of Trust",
+    "payWithStripe": "Pay With Stripe",
+    "chooseOtherPaymentMethod": "Choose Other Payment Method",
+    "creditCard": "Credit Card",
+    "debitCard": "Debit Card",
+    "wallets": "Wallets",
+    "netBanking": "Net Banking",
+    "upiPaymentText": "UPI PAYMENT USING PHONEPAY / GPAY / AMAZONPAY ETC...",
+    "payThroughQRCode": "Pay through QR Code",
+    "new": "New",
+    "payThroughUPIId": "Pay through UPI ID",
+    "bookingDate": "Booking Date",
+    "seatsBooked": "Seats Booked",
+    "boardingPoint": "Boarding Point",
+    "droppingPoint": "Dropping Point",
+    "fareBreakup": "FARE BREAKUP",
+    "totalPayable": "Total Payable",
+    "masterCardSecure": "MasterCard Secure Code",
+    "verifiedByVisa": "Verified by Visa",
+    "verisignSecure": "Verisign Secured",
+    "seaterACSleeper": "Seater / A/C / Sleeper"
+  },
+  "profile": {
+    "dashboard": "Dashboard",
+    "myTrips": "My Trips",
+    "myProfile": "My Profile",
+    "wallet": "Wallet",
+    "walletFeatureComingSoon": "Wallet feature coming soon...",
+    "yourName": "Your name",
+    "user": "User",
+    "dob": "Date of Birth",
+    "gender": "Gender",
+    "contactDetails": "Contact Details",
+    "email": "Email",
+    "phone": "Phone"
+  },
+  "myTrip": {
+    "busDetails": "Bus Details",
+    "departureLocation": "Departure Location",
+    "departureTime": "Departure Time",
+    "departureDate": "Departure Date",
+    "arrivalLocation": "Arrival Location",
+    "arrivalTime": "Arrival Time",
+    "arrivalDate": "Arrival Date",
+    "totalFare": "Total Fare",
+    "passengerDetails": "Passenger Details",
+    "contactEmail": "Contact Email",
+    "contactPhoneNumber": "Contact Phone Number",
+    "passengerName": "Passenger Name",
+    "passengerGender": "Passenger Gender",
+    "passengerAge": "Passenger Age"
+  },
+
+  "footer": {
+    "topRTCs": "Top RTCs",
+    "others": "Others",
+    "topBusRoutes": "Top bus routes",
+    "topCities": "Top cities",
+    "redRail": "redRail",
+    "aboutTedbus": "About tedbus",
+    "info": "Info",
+    "globalSites": "Global Sites",
+    "ourPartners": "Our Partners",
+    "tedbusDescription": "tedbus is the world's largest online bus ticket booking service trusted by over 25 million happy customers globally. tedbus offers bus ticket booking through its website, iOS and Android mobile apps for all major routes.",
+    "links": {
+      "topRTCs": ["APSRTC", "GSRTC", "MSRTC", "TNSTC", "View All"],
+      "others": ["TSRTC", "SBSTC", "RSRTC", "Kerala RTC", "View All"],
+      "topBusRoutes": [
+        "Hyderabad to Bangalore Bus",
+        "Bangalore to Chennai Bus",
+        "Pune to Bangalore Bus",
+        "Mumbai to Bangalore Bus",
+        "View All"
+      ],
+      "topCities": [
+        "Hyderabad Bus Tickets",
+        "Bangalore Bus Tickets",
+        "Chennai Bus Tickets",
+        "Pune Bus Tickets",
+        "View All"
+      ],
+      "redRail": [
+        "Book Train Tickets",
+        "PNR Status",
+        "Live Train Status",
+        "Train Seat Availability",
+        "Trains between Stations"
+      ],
+      "aboutTedbus": [
+        "About us",
+        "Investor Relations",
+        "Contact us",
+        "Mobile version",
+        "tedbus on mobile",
+        "Sitemap",
+        "Offers",
+        "Careers",
+        "Values"
+      ],
+      "info": [
+        "T&C",
+        "Privacy policy",
+        "FAQ",
+        "Blog",
+        "Bus operator registration",
+        "Agent registration",
+        "Insurance partner",
+        "User agreement"
+      ],
+      "globalSites": [
+        "India",
+        "Singapore",
+        "Malaysia",
+        "Indonesia",
+        "Peru",
+        "Colombia"
+      ],
+      "ourPartners": [
+        "Goibibo Bus",
+        "Goibibo Hotels",
+        "Makemytrip Bus",
+        "Makemytrip Hotels"
+      ]
+    }
+  },
+  "routePlanner": {
+    "heading": "Interactive Route Planner",
+    "startLocation": "Start Location",
+    "endLocation": "End Location",
+    "waypoint": "Waypoint",
+    "addWaypoint": "Add Waypoint",
+    "planRoute": "Plan Route",
+    "loading": "Loading...",
+    "to": "to",
+    "distance": "Distance",
+    "waypoints": "Waypoints",
+    "routeInstructions": "Route Instructions",
+    "showInstructions": "Show Instructions",
+    "hideInstructions": "Hide Instructions"
+  }
+}

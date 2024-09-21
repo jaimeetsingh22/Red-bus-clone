@@ -1,0 +1,23 @@
+.virtual-tour-button {
+    display: flex;
+    align-items: center;
+    background-color: #1976d2; /* Custom color */
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 25%;
+    text-align: center;
+    /* justify-content: center; */
+  }
+  
+  .virtual-tour-button mat-icon {
+    margin-right: 5px;
+  }
+  
+  .virtual-tour-button:hover {
+    background-color: #1565c0;
+  }
+  

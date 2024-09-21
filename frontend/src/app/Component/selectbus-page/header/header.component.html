@@ -1,0 +1,13 @@
+<div class="Header">
+    <div class="HeaderOne">
+        <p>
+            {{ 'header.home' | translate }} &gt; {{ 'header.busTickets' | translate }} &gt; {{ ('navbar.cities.' + this.arrival.toLowerCase() | translate) }} Bus &gt; {{('navbar.cities.' + this.departure.toLowerCase() | translate) }} to {{('navbar.cities.' + this.arrival.toLowerCase() | translate) }}
+        </p>
+        <p>{{ 'header.fareStarts' | translate }} INR 100 </p>
+    </div>
+    <div class="HeaderTwo">
+        <h3>
+            {{ 'header.departureTo' | translate }} {{('navbar.cities.' + this.arrival.toLowerCase() | translate) }} {{ 'header.on' | translate }} {{this.date}}
+        </h3>
+    </div>
+</div>

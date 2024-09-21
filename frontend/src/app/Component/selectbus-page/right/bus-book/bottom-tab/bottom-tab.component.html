@@ -1,0 +1,23 @@
+
+
+<div class="mainBar">
+    <div (click)="handletabstate(0)">{{ 'mainBar.amenities' | translate }}</div>
+    <div>|</div>
+    <div (click)="handletabstate(1)">{{ 'mainBar.boardingDropping' | translate }}</div>
+    <div>|</div>
+    <div (click)="handletabstate(2)">{{ 'mainBar.reviews' | translate }}</div>
+    <div>|</div>
+    <div (click)="handletabstate(3)">{{ 'mainBar.bookingPolicies' | translate }}</div>
+    <div>|</div>
+    <div (click)="handletabstate(4)">{{ 'mainBar.viewSeats' | translate }}</div>
+</div>
+
+
+<div class="displayArea" *ngIf="tabstate[0]">{{ 'mainBar.amenities' | translate }}</div>
+<div class="displayArea" *ngIf="tabstate[1]">{{ 'mainBar.boardingDropping' | translate }}</div>
+<div class="displayArea" *ngIf="tabstate[2]">{{ 'mainBar.reviews' | translate }}</div>
+<div class="displayArea" *ngIf="tabstate[3]">{{ 'mainBar.bookingPolicies' | translate }}</div>
+<div class="displayArea" *ngIf="tabstate[4]">
+    <app-view-seats [filledseats]="filledseats" [seatprice]="seatprice" [routedetails]="routedetials" [busid]="busid"
+        [busarrivaltime]="busarrivaltime" [busdeparturetime]="busdeparturetime" [operatorname]="operatorname" ></app-view-seats>
+</div>
