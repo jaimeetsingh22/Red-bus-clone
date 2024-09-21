@@ -1,1 +1,1 @@
-export const url:string='http://localhost:5000/';
+export const url:string='https://red-bus-clone-loi4.onrender.com/';
