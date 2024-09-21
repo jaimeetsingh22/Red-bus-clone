@@ -5,7 +5,10 @@ const mongoose=require('mongoose')
 
 const app=express();
 
-app.use(cors());
+app.use(cors({
+    origin: 'https://exquisite-paletas-52ab7a.netlify.app/',
+    optionsSuccessStatus: 200
+  }));
 app.use(bodyparser.json())
 const customerroutes=require("./routes/customer");
 const routesroute=require("./routes/route");
